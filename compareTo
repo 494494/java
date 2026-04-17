@@ -6,5 +6,12 @@ public class Main {
             int val = five.compareTo(i);
             System.out.printf("%d %s %d: comapreTo= %d%n",five,(val==0?"==":(val<0)?"< ":">"),i,val);
         }
+        String banana="banana";
+        String[] fruits={"apple","Grapes","papaya","banana","tomato"};
+        for(String f: fruits){
+            int val = banana.compareTo(f);
+            System.out.printf("%s %s %s: comapreTo= %d%n",banana,(val==0?"==":(val<0)?"< ":">"),f,val);
+
+        }
     }
 }
